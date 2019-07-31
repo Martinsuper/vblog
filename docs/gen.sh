@@ -5,11 +5,11 @@ function read
   for filename in `ls $1`
   do
     # echo "./"$filename >> $1"/README.md"
-    if [ -d $1"/"$filename ];then
-      echoFolder $filename $1
-      read $1"/"$filename
+    if [[ -d $1"/"${filename} ]];then
+      echoFolder ${filename} $1
+      read $1"/"${filename}
     else
-      echoFile $filename $1
+      echoFile ${filename} $1
     fi
   done
 }
@@ -24,9 +24,9 @@ function echoFile
 {
   prefix=${1%.*}
   suffix=${1##*.}
-  if [ $suffix == "md" ] && [ $1 != "README.md" ] && [ $1 != "mail.md" ];then
+  if [[ ${suffix} == "md" ]] && [[ $1 != "README.md" ]];then
     # echo [$prefix]"(./"$1") <br/>" >> $2"/README.md"
-    echo "<fileIndex name="\"$prefix\"" link=\"./"$prefix".html\"/>" >> $2"/README.md"
+    echo "<fileIndex name="\"${prefix}\"" link=\"./"${prefix}".html\"/>" >> $2"/README.md"
   fi
 }
 # 删除所有的README.md文件，重新开始构建目录
@@ -34,16 +34,16 @@ function deleteRead
 {
   for filename in `ls $1`
   do
-    if [ -d $1"/"$filename ];then
-      deleteRead $1"/"$filename
+    if [[ -d $1"/"${filename} ]];then
+      deleteRead $1"/"${filename}
     else
-      if [ -f $1"/README.md" ];then
+      if [[ -f $1"/README.md" ]];then
         rm -rf $1"/README.md"
       fi
     fi
   done
 }
 
-homepath=$(cd $(dirname $0);pwd)/daily
-deleteRead $homepath
-read $homepath
+homePath=$(cd $(dirname $0);pwd)/daily
+deleteRead ${homePath}
+read ${homePath}
