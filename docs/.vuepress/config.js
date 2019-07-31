@@ -1,17 +1,9 @@
 module.exports = {
-    title: '成神之路',
+    title: '学海无涯',
     description: '无，名万物之始；有，名万物之母',
+    base: "/",
     themeConfig: {
-        nav: [
-            { text: '首页', link: '/' },
-            { text: '笔记', link: '/daily/学习文档/centos安装jdk.md' },
-            { text: 'github', link: 'https://github.com/Martinsuper' },
-        ],
-        sidebar: {
-            '/daily/学习文档/':[
-                '',
-                'centos安装jdk'
-            ]
-        }
+        nav: require('./nav/nav'),
+        sidebar: require('./sidebar/index')
     }
 }
