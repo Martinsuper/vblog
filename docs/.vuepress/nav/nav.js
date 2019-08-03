@@ -1,16 +1,33 @@
 module.exports = [
     { text: '首页', link: '/' },
     {
-        text: '学无止境',
+        text: '后端技术',
         items: [
             {
-                text: '编程语言', link: '/daily/learn/lang/java/java之数据类型'
+                text: 'docker', link: '/daily/learn/technology/docker/'
             },
             {
-                text: '后端技术', link: '/daily/learn/technology/'
+                text: 'redis', link: '/daily/learn/technology/redis/'
             },
             {
-                text: '工具使用', link: '/daily/learn/tool/'
+                text: 'MQ', link: '/daily/learn/technology/MQ/'
+            },
+            {
+                text: 'linux', link: '/daily/learn/technology/linux/'
+            }
+        ],
+    },
+    {
+        text: '编程语言',
+        items: [
+            {
+                text: 'java', link: '/daily/learn/lang/java/'
+            },
+            {
+                text: 'go', link: '/daily/learn/lang/go/'
+            },
+            {
+                text: 'shell', link: '/daily/learn/lang/shell/'
             }
         ],
     },
