@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: ../cherry.png
+heroImage: ../blog/cherry.png
 actionText: 快速上手 →
 actionLink: /zh/guide/
 features:
