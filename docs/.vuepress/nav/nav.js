@@ -4,16 +4,16 @@ module.exports = [
         text: '后端技术',
         items: [
             {
-                text: 'docker', link: '/daily/learn/technology/docker/'
+                text: 'docker', link: '/technote/technology/docker/'
             },
             {
-                text: 'redis', link: '/daily/learn/technology/redis/'
+                text: 'redis', link: '/technote/technology/redis/'
             },
             {
-                text: 'MQ', link: '/daily/learn/technology/MQ/'
+                text: 'MQ', link: '/technote/technology/MQ/'
             },
             {
-                text: 'linux', link: '/daily/learn/technology/linux/'
+                text: 'linux', link: '/technote/technology/linux/'
             }
         ],
     },
@@ -21,13 +21,13 @@ module.exports = [
         text: '编程语言',
         items: [
             {
-                text: 'java', link: '/daily/learn/lang/java/'
+                text: 'java', link: '/technote/lang/java/'
             },
             {
-                text: 'go', link: '/daily/learn/lang/go/'
+                text: 'go', link: '/technote/lang/go/'
             },
             {
-                text: 'shell', link: '/daily/learn/lang/shell/'
+                text: 'shell', link: '/technote/lang/shell/'
             }
         ],
     },

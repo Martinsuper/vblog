@@ -44,6 +44,6 @@ function deleteRead
   done
 }
 
-homePath=$(cd $(dirname $0);pwd)/daily
+homePath=$(cd $(dirname $0);pwd)/technote
 deleteRead ${homePath}
 read ${homePath}
