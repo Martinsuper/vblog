@@ -31,7 +31,6 @@ module.exports = [
             }
         ],
     },
-    { text: '小扣柴扉', link: '/daily/life/' },
-    { text: '书山有路', link: '/daily/learn/readBook/' },
+    { text: '书山有路', link: '/technote/readBook/' },
     { text: 'github', link: 'https://github.com/Martinsuper' },
 ]
