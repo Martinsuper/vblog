@@ -4,11 +4,11 @@ heroImage: ../blog/cherry.png
 actionText: 快速上手 →
 actionLink: /zh/guide/
 features:
-- title: 测试发布
-  details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
-- title: Vue驱动
-  details: 享受 Vue + webpack 的开发体验，在 Markdown 中使用 Vue 组件，同时可以使用 Vue 来开发自定义主题。
-- title: 高性能
-  details: VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。
+- title: 学无止境
+  details: 生也有涯，知也无涯
+- title: 静以修身 俭以养德
+  details: 守住内心清净，耐得住寂寞，看的见繁华
+- title: 好读书，求甚解
+  details: 多读书，通过读书开拓自己的知识，自己的视野；多思考，通过思考探究事物的原理；勤动手，提升自己的能力
 footer: Copyright © 2019-present Martin duan
 ---
