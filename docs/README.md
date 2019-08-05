@@ -1,8 +1,8 @@
 ---
 home: true
 heroImage: ../blog/cherry.png
-actionText: 快速上手 →
-actionLink: /zh/guide/
+actionText: 书山有路 →
+actionLink: /technote/readBook/
 features:
 - title: 学无止境
   details: 生也有涯，知也无涯
