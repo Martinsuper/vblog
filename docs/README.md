@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: ../blog/cherry.png
+heroImage: ../cherry.png
 actionText: 书山有路 →
 actionLink: /technote/readBook/
 features:
