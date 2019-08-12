@@ -1,6 +1,7 @@
 module.exports = {
     '/daily/learn/lang/java/': getJavaSidebar(),
-    '/daily/learn/lang/go/': getGoSidebar()
+    '/daily/learn/lang/go/': getGoSidebar(),
+    '/technote/readBook/java编程思想/': getBookSidebar()
 }
 
 function getJavaSidebar() {
@@ -26,8 +27,19 @@ function getGoSidebar() {
             title: "go",
             collapsable: false,
             children: [
-                ['','首页'],
                 'go环境变量设置'
+            ]
+        }
+    ]
+}
+function getBookSidebar() {
+    return [
+        {
+            title: "java编程思想",
+            collapsable: false,
+            children: [
+                ['第一章对象导论','第一章 对象导论'],
+                ['第二章一切都是对象','第二章 一切都是对象']
             ]
         }
     ]

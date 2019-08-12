@@ -14,6 +14,9 @@ module.exports = [
             },
             {
                 text: 'linux', link: '/technote/technology/linux/'
+            },
+            {
+                text: '算法', link: '/technote/technology/算法/'
             }
         ],
     },

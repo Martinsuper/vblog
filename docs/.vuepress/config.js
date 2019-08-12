@@ -5,5 +5,10 @@ module.exports = {
     themeConfig: {
         nav: require('./nav/nav'),
         sidebar: require('./sidebar/index')
-    }
+    },
+    // markdown: {
+    //     config: md => {
+    //         md.use(require('markdown-it-mermaid'))
+    //     }
+    // }
 }
