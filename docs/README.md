@@ -5,7 +5,7 @@ actionText: 书山有路 →
 actionLink: /technote/readBook/
 features:
 - title: 学无止境
-  details: 生也有涯，知也无涯
+  details: 生也有涯，知也无涯；书山有路勤为径，学海无涯苦作舟
 - title: 静以修身 俭以养德
   details: 守住内心清净，耐得住寂寞，看的见繁华
 - title: 好读书，求甚解
