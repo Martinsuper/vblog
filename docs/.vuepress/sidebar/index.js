@@ -3,7 +3,8 @@ module.exports = {
     '/daily/learn/lang/go/': getGoSidebar(),
     '/technote/readBook/java编程思想/': getBookSidebar(),
     '/technote/tool/git/' : getBaseGitSidebar(),
-    '/technote/technology/redis/': getRedisSidebar()
+    '/technote/technology/redis/': getRedisSidebar(),
+    '/technote/technology/MQ/RabbitMQ/': getRabbitMQSidebar()
 }
 
 function getJavaSidebar() {
@@ -64,6 +65,18 @@ function getRedisSidebar() {
             collapsable: false,
             children: [
                 ['redis使用','基本使用']
+            ]
+        }
+    ]
+}
+function getRabbitMQSidebar() {
+    return [
+        {
+            title: "RabbitMQ",
+            collapsable: false,
+            children: [
+                ['安装RabbitMQ','安装'],
+                ['RabbitMQ基础','基本概念']
             ]
         }
     ]

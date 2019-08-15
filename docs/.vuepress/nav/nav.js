@@ -18,7 +18,7 @@ module.exports = [
                 text: 'redis', link: '/technote/technology/redis/redis使用'
             },
             {
-                text: 'MQ', link: '/technote/technology/MQ/'
+                text: 'MQ', link: '/technote/technology/MQ/RabbitMQ/安装RabbitMQ'
             },
             {
                 text: 'linux', link: '/technote/technology/linux/'
