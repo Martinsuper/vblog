@@ -1,6 +1,14 @@
 module.exports = [
     { text: '首页', link: '/' },
     {
+        text: '入门基础',
+        items: [
+            {
+                text: 'git使用', link: '/technote/tool/git/'
+            }
+        ],
+    },
+    {
         text: '后端技术',
         items: [
             {

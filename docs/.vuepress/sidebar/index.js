@@ -1,13 +1,12 @@
 module.exports = {
     '/daily/learn/lang/java/': getJavaSidebar(),
     '/daily/learn/lang/go/': getGoSidebar(),
-    '/technote/readBook/java编程思想/': getBookSidebar()
+    '/technote/readBook/java编程思想/': getBookSidebar(),
+    '/technote/tool/git/' : getBaseGitSidebar()
 }
 
 function getJavaSidebar() {
     return [
-        // '开发流程',
-        // '设计模式'
         {
             title: "java",
             collapsable: false,
@@ -40,6 +39,18 @@ function getBookSidebar() {
             children: [
                 ['第一章对象导论','第一章 对象导论'],
                 ['第二章一切都是对象','第二章 一切都是对象']
+            ]
+        }
+    ]
+}
+
+function getBaseGitSidebar() {
+    return [
+        {
+            title: "git入门基础",
+            collapsable: false,
+            children: [
+                ['git基本使用','git基本使用']
             ]
         }
     ]
