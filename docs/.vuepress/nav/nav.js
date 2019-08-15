@@ -15,7 +15,7 @@ module.exports = [
                 text: 'docker', link: '/technote/technology/docker/'
             },
             {
-                text: 'redis', link: '/technote/technology/redis/'
+                text: 'redis', link: '/technote/technology/redis/redis使用'
             },
             {
                 text: 'MQ', link: '/technote/technology/MQ/'

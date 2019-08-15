@@ -2,7 +2,8 @@ module.exports = {
     '/daily/learn/lang/java/': getJavaSidebar(),
     '/daily/learn/lang/go/': getGoSidebar(),
     '/technote/readBook/java编程思想/': getBookSidebar(),
-    '/technote/tool/git/' : getBaseGitSidebar()
+    '/technote/tool/git/' : getBaseGitSidebar(),
+    '/technote/technology/redis/': getRedisSidebar()
 }
 
 function getJavaSidebar() {
@@ -51,6 +52,18 @@ function getBaseGitSidebar() {
             collapsable: false,
             children: [
                 ['git基本使用','git基本使用']
+            ]
+        }
+    ]
+}
+
+function getRedisSidebar() {
+    return [
+        {
+            title: "redis",
+            collapsable: false,
+            children: [
+                ['redis使用','基本使用']
             ]
         }
     ]
