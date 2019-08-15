@@ -4,7 +4,7 @@ module.exports = [
         text: '入门基础',
         items: [
             {
-                text: 'git使用', link: '/technote/tool/git/'
+                text: 'git使用', link: '/technote/tool/git/git基本使用'
             }
         ],
     },
