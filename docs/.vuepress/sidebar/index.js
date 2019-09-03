@@ -64,7 +64,9 @@ function getRedisSidebar() {
             title: "redis",
             collapsable: false,
             children: [
-                ['redis使用','基本使用']
+                ['redis安装','redis安装'],
+                ['redis使用','基本使用'],
+                ['redis集群','redis集群']
             ]
         }
     ]
