@@ -64,6 +64,7 @@ function getRedisSidebar() {
             title: "redis",
             collapsable: false,
             children: [
+                ['redis安装','redis安装'],
                 ['redis使用','基本使用']
             ]
         }
@@ -75,8 +76,9 @@ function getRabbitMQSidebar() {
             title: "RabbitMQ",
             collapsable: false,
             children: [
+                ['RabbitMQ基础','基本概念'],
                 ['安装RabbitMQ','安装'],
-                ['RabbitMQ基础','基本概念']
+                ['RabbitMQ使用','使用']
             ]
         }
     ]
